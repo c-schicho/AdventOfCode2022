@@ -76,7 +76,7 @@ class Day10 : Puzzle {
         return this.map { row ->
             row.map { element ->
                 when (element) {
-                    '#' -> "$COLOR_YELLOW#$COLOR_BLACK"
+                    '#' -> "$COLOR_YELLOW#$COLOR_RESET"
                     else -> "$COLOR_BLACK.$COLOR_RESET"
                 }
             }
